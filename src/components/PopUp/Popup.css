@@ -1,0 +1,31 @@
+.background {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.86);
+    z-index: 1;
+}
+
+.sum {
+    margin-top: 30vh;
+    background-color: white;
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid black;
+    min-width: auto;
+    width: 400px;
+    height: 10vh;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.sum p {
+    margin-top: 2vh;
+    width: auto;
+    height: 5vh;
+    font-size: 1.9em;
+}
